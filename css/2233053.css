@@ -3,7 +3,7 @@ body {
 }
 /*제목*/
 .top {
-    background-color: aqua;
+    background-color: darkgrey;
     color: aliceblue;
     text-align: center;
 }
@@ -20,33 +20,43 @@ mark {
     background-color: azure;
 }
 .index ol {
-    background-color: aqua;
+    background-color: darkgray;
     width: 300px;
 }
 .index li {
-    background-color: aquamarine;
+    background-color: beige;
     margin-bottom: 10px;
 }
 .index li:hover {
     background-color: black;
     color: aliceblue;
+    text-decoration: underline;
 }
 .index a:hover {
     color: aliceblue;
 }
 /*동아리 운영진*/
 .mentor table {
-    border: 3px solid blue;
+    border: 3px solid black;
 }
 .mentor table td {
     height: 50px;
     width: 100px;
-    border: 3px dotted green;
-    background-color: aqua;
+    border: 3px dotted blue;
+    background-color: darkgrey;
     text-align: center;
 }
 /*소사캠퍼스*/
 .school img{
     width: auto;
     height: 250px;
+}
+a {
+    text-decoration: none;
+}
+.hyperlink li:hover {
+    text-decoration: underline;
+}
+.groub tr :nth-child(odd) {
+    color: aqua;
 }
