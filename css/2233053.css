@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background-color:beige;
 }
 /*제목*/
 .top {
@@ -17,14 +17,15 @@ mark {
 }
 /*목차*/
 .index mark {
-    background-color: azure;
+    background-color: darkgray;
+    color: aliceblue;
 }
 .index ol {
     background-color: darkgray;
     width: 300px;
 }
 .index li {
-    background-color: beige;
+    background-color:dimgray;
     margin-bottom: 10px;
 }
 .index li:hover {
@@ -42,7 +43,7 @@ mark {
 .mentor table td {
     height: 50px;
     width: 100px;
-    border: 3px dotted blue;
+    border: 3px dotted black;
     background-color: darkgrey;
     text-align: center;
 }
@@ -51,12 +52,24 @@ mark {
     width: auto;
     height: 250px;
 }
-a {
+.hyperlink a {
     text-decoration: none;
 }
-.hyperlink li:hover {
+.hyperlink a:hover {
     text-decoration: underline;
+    background-color: black;
+    color: aliceblue;
+    width: 45px;
 }
-.groub tr :nth-child(odd) {
-    color: aqua;
+.groub table {
+    border-collapse: collapse;
+}
+.groub td {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    border: 3px solid black;
+}
+.groub tr:nth-child(odd) {
+    background-color: darkgray;
 }
